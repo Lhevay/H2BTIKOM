@@ -81,9 +81,14 @@ p{
     width: 250px;
 }
 .introba{
+ 
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     padding: 0% 10%;
+}
+
+.introba p{
+    font-size: 15px;
 }
 
 #skills, .myworks{
@@ -94,6 +99,7 @@ p{
 .card{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .card div{
@@ -122,6 +128,8 @@ p{
 #myworks {
     text-align: center;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     padding: 20px;
 }
@@ -177,18 +185,32 @@ p{
 @media (max-width:700px){
     nav{
         display: flex;
+        text-align: center;
         flex-direction: column;
+        justify-content: center;
+    }
+    nav div img{
+        width: 150px;
+        margin: 0 auto;
+    }
+    .navlink{
+        margin: 0 auto;
+
     }
     nav ul{
         margin-top: -10px;
+        text-align: center;
+        padding: 0;
     }
     .intro{
         display: flex;
         flex-wrap: wrap;
+        margin-top: 100px;
 
 
     }
     .introki{
+
         margin: 50px;
         padding: 10px;
         
@@ -200,6 +222,9 @@ p{
     }
     .introka img{
         width: 200px;
+    }
+    .introba p{
+        font-size: 10px;
     }
 
     .card, #myworks{
