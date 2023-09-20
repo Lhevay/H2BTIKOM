@@ -20,6 +20,10 @@ nav{
     display: flex;
     justify-content: space-between;
 }
+
+nav div img{
+    margin-top: 15px;
+}
 nav ul{
     list-style: none;
 }
@@ -47,15 +51,15 @@ hr{
 }
 h1{
     color: burlywood;
-    font-size: 60px;
+    font-size: 40px;
 }
 h2{
     color: white;
-    font-size: 50px;
+    font-size: 30px;
 }
 p{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .intro{
@@ -63,18 +67,18 @@ p{
     justify-content:center;
 }
 .introki{
-    padding: 100px;
+    padding: 65px;
     width: 50%;
 }
 .introka{
-    padding: 100px;
+    padding: 40px;
     background-image: url(background-header.svg);
     background-repeat: no-repeat;
     width: 50%;
     margin-top: 100px;
 }
 .introka img{
-    width: 300px;
+    width: 250px;
 }
 .introba{
     text-align: center;
@@ -84,6 +88,7 @@ p{
 
 #skills, .myworks{
     text-align: center;
+    margin-top: 50px;
 }
 
 .card{
@@ -106,6 +111,14 @@ p{
     color: black;
 }
 
+#testing{
+    margin: 70px;
+    margin-bottom: 100px;
+}
+#testing hr{
+    border: 1px solid black;
+}
+
 #myworks {
     text-align: center;
     display: flex;
@@ -124,21 +137,42 @@ p{
     width: 250px;
 }
 
+#contact{
+    bottom: 0;
+}
+
 #contact .grid-container {
     display: grid;
     grid-template-columns: auto auto;
+    justify-content: center;
     gap: 10px;
     padding: 20px;
   }
   .grid-container > div {
     text-align: center;
-    align-content: center;
     padding: 20px 0;
     font-size: 30px;
   }
-  .item3{
+.item1{
+    margin-top: -7px;
+}
+.item1 img{
+    width: 100px;
+}
+.item2{
+    line-height: 0.2;
+}
+.item2 p{
+    font-size: 10px;
+}
+.item3{
+    margin-top: -60px;
     grid-column-end: span 2;
-  }
+}
+.item3 p{
+    font-size: 10px;
+    bottom: 0;
+}
 
 @media (max-width:700px){
     nav{
